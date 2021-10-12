@@ -1,6 +1,12 @@
 import colors from "vuetify/es5/util/colors";
 
 export default {
+  // Changing build directory
+  distDir: 'build',
+  target: 'server',
+  server: {
+    port: 8080,
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: "%s - fc-nuxtjs-boilerplate",
