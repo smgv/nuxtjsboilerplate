@@ -2,8 +2,8 @@ import colors from "vuetify/es5/util/colors";
 
 export default {
   // Changing build directory
-  distDir: 'build',
-  target: 'server',
+  distDir: "build",
+  target: "server",
   server: {
     port: 8080,
   },
